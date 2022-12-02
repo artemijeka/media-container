@@ -1,6 +1,3 @@
-/**
- * data-media-container - обязательно установить контейнеру
- */
 function MediaContainer(params) {
   let dataContainerAll = document.querySelectorAll("[data-media-container]");
   setMedias();
