@@ -25,8 +25,8 @@ function MediaContainer(params) {
       let mediasAll = "";
 
       let containerRect = container.getBoundingClientRect();
-      console.log("containerRect.width");
-      console.log(containerRect.width);
+      // console.log("containerRect.width");
+      // console.log(containerRect.width);
       params.medias.forEach(function (media) {
         if (containerRect.width < media) {
           mediasLess.push("<" + Number(media - 1));
