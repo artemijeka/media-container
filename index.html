@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="example.css" />
+  </head>
+  <body>
+    <!-- data-media-container="<1439,<1279,<1199,>=992" -->
+    <div class="container" data-media-container>
+      <div class="box"></div>
+    </div>
+
+    <script src="media-content.js"></script>
+    <script>
+      new MediaContainer({
+        medias: [1440, 1280, 1200, 992],
+        resizeTimeout: 500,
+      });
+    </script>
+  </body>
+</html>
