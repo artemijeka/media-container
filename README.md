@@ -1,3 +1,7 @@
+Пример https://codepen.io/artemijeka/pen/abKQbrz
+
+***
+
 data-media-container - обязательно установить контейнеру   
 `<div class="container" data-media-container></div>`
 
