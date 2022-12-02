@@ -1,4 +1,12 @@
+/**
+ * @param {Array} params.medias 
+ * @param {Number} params.resizeTimeout 
+ */
 function MediaContainer(params) {
+  if (!(params.resizeTimeout > 0) || !params.resizeTimeout) {
+    params.resizeTimeout = 500;
+  }
+
   let dataContainerAll = document.querySelectorAll("[data-media-container]");
   setMedias();
 
