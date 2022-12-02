@@ -19,6 +19,9 @@ body {
 }
 
 .box {
+  display: flex;
+  justify-content: center;
+  align-items:center;
   background-color: green;
   width: calc(100% - 50px);
   height: calc(100% - 50px);
